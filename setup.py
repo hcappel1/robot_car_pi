@@ -25,7 +25,8 @@ setup(
         'console_scripts': [
             'encoder_count_node = motor_control.encoder_count:main',
             'wheel_omega_node = motor_control.wheel_omega:main',
-            'pid_omega_node = motor_control.pid_omega:main'
+            'pid_omega_node = motor_control.pid_omega:main',
+            'encoder_data_node = motor_control.encoder_data:main',
         ],
     },
 )

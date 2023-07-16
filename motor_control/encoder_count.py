@@ -7,11 +7,7 @@ import board
 from adafruit_motorkit import MotorKit
 from os import geteuid
 
-kit = MotorKit(i2c=board.I2C())
-kit.motor1.throttle = 0.6
-kit.motor2.throttle = 0.6
-kit.motor3.throttle = 0.6
-kit.motor4.throttle = 0.6
+#kit = MotorKit(i2c=board.I2C())
 
 class EncoderPublisher(Node):
 

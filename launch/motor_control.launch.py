@@ -21,5 +21,11 @@ def generate_launch_description():
 			output='screen',
 			# prefix=["sudo -E env \"PYTHONPATH=$PYTHONPATH\" \"LD_LIBRARY_PATH=$LD_LIBRARY_PATH\" \"PATH=$PATH\" \"USER=$USER\" bash -c "]
 		),
+		Node(
+			package='motor_control',
+			executable='encoder_data_node',
+			output='screen',
+			# prefix=["sudo -E env \"PYTHONPATH=$PYTHONPATH\" \"LD_LIBRARY_PATH=$LD_LIBRARY_PATH\" \"PATH=$PATH\" \"USER=$USER\" bash -c "]
+		),
 
 	])

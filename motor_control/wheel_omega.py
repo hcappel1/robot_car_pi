@@ -101,10 +101,10 @@ class WheelAngVel(Node):
 		self.prev_encoder_count_m4 = self.encoder_count_m4
 
 		#######################################################
-		self.get_logger().info('wheel 1 ang vel: %f' % self.omega_m1)
-		self.get_logger().info('wheel 2 ang vel: %f' % self.omega_m2)
-		self.get_logger().info('wheel 3 ang vel: %f' % self.omega_m3)
-		self.get_logger().info('wheel 4 ang vel: %f' % self.omega_m4)
+		#self.get_logger().info('wheel 1 ang vel: %f' % self.omega_m1)
+		#self.get_logger().info('wheel 2 ang vel: %f' % self.omega_m2)
+		#self.get_logger().info('wheel 3 ang vel: %f' % self.omega_m3)
+		#self.get_logger().info('wheel 4 ang vel: %f' % self.omega_m4)
 
 		#######################################################
 
