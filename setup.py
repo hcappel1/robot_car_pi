@@ -27,6 +27,7 @@ setup(
             'wheel_omega_node = motor_control.wheel_omega:main',
             'pid_omega_node = motor_control.pid_omega:main',
             'encoder_data_node = motor_control.encoder_data:main',
+            'motor_test_node = motor_control.motor_test:main',
         ],
     },
 )
